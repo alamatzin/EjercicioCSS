@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <form>
+        <h2>Inscripción de actividades.</h2>
+        <br>
+        <h4>Por favor, rellena este formulario para recibir más información.</h4>
+            <label for="nombre" required>Nombre completo:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label for="fecha">Ingresa tu fecha de nacimiento:</label>
+    
+        <input type="date" id="fecha" name="trip-start"
+       value=""min="1900-01-01" max="2022-12-31">
+    
+            <br>
+            <br>
+            <label for="email"required>Ingrese su correo:</label>
+            <input type="email">
+            <br>
+            <br>
+            <hr>
+            <h5>Selecciona tu género</h5>
+            <label>
+                <input type="radio" value="Femenino" name="Masculino-femenino-otro-Prefiero no decirlo">Femenino
+            </label><br>
+          
+            <label>
+                <input type="radio" value="Masculino" name="Masculino-femenino-otro-Prefiero no decirlo" checked>Masculino
+            </label><br>
+            
+            <label>
+                <input type="radio" value="Otro" name="Masculino-femenino-otro-Prefiero no decirlo">Otro
+            </label><br>
+             
+            <label>
+                <input type="radio" value="Prefiero no decirlo" name="Masculino-femenino-otro-Prefiero no decirlo" checked>Prefiero no decirlo
+              </label><br>
+              <hr>
+    
+              <h5>Selecciona la categoria de tu preferencia</h5>
+              <select name="" id="">
+                <option value="">Arte</option>
+                <option value="">Habilidades</option>
+                <option value="">Deportivas</option>
+            </select>
+    
+            <h5>Selecciona la actividad de tu preferencia</h5>
+              <label>
+                <input type="radio" value="Musica" name="musica-teatro-futbol-yoga"> Musica
+            </label><br>
+          
+            <label>
+                <input type="radio" value="Teatro" name="musica-teatro-futbol-yoga" checked> Teatro
+            </label><br>
+            
+            <label>
+                <input type="radio" value="futbol" name="musica-teatro-futbol-yoga">Futbol
+            </label><br>
+             
+            <label>
+                <input type="radio" value="Yoga" name="musica-teatro-futbol-yoga" checked>Yoga
+              </label>
+              <br>
+              <br>
+    
+              <button type="submit">Enviar</button><br>
+            
+    </form>
+</body>
+</html>
